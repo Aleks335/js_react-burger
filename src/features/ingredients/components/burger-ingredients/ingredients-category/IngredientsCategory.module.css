@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    box-sizing: border-box;
+    column-gap: 24px;
+    row-gap: 32px;
+    max-width: 600px;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    padding-bottom: 40px;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 16px;
+}
+.name{
+    position: absolute;
+}
+.infoButton{
+    position: absolute;
+}
+.counter{
+    position: absolute;
+    margin-right: 30px;
+}

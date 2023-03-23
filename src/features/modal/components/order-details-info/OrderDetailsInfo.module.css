@@ -1,0 +1,27 @@
+
+.components{
+    /*width: 200px;*/
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.component{
+    margin: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.components::-webkit-scrollbar{
+    width: 7px;
+    background-color: #2F2F37;
+}
+
+.components::-webkit-scrollbar-thumb {
+    background-color: #4C4CFF;
+}

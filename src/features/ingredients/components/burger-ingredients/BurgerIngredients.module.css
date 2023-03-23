@@ -1,0 +1,41 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.list {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-bottom: 24px;
+}
+
+.ingredients::-webkit-scrollbar {
+    width: 8px;
+}
+
+.ingredients::-webkit-scrollbar-track {
+    background: #2F2F37;
+}
+
+.ingredients::-webkit-scrollbar-thumb {
+    background-color: #4C4CFF;
+    border: 8px solid #4C4CFF;
+}

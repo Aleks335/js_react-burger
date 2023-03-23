@@ -1,0 +1,39 @@
+.back_container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(123, 123, 133, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: s 50s forwards;
+    z-index: 1;
+}
+
+/*.container {*/
+/*    height: 550px;*/
+/*    width: 720px;*/
+/*    background-color: #1C1C21;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    padding: 0;*/
+/*    align-items: center;*/
+/*    margin-top: 16px;*/
+/*    border-radius: 30px;*/
+/*}*/
+
+/*.close{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    margin-top: 70px;*/
+/*    margin-left: 615px;*/
+/*    -webkit-transition: all 0.5s ease;*/
+/*    transition: all 0.5s ease;*/
+/*}*/
+/*.close:hover{*/
+/*    -webkit-transform: rotate(360deg);*/
+/*    transform: rotate(360deg);*/
+/*}*/

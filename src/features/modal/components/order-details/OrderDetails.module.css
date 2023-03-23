@@ -1,0 +1,47 @@
+.container {
+    height: 700px;
+    width: 720px;
+    background-color: #1C1C21;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 30px;
+}
+
+.img {
+    height: 120px;
+    width: 120px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 60px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.img:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.amount{
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 3px;
+}
+.close{
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+    margin-left: 615px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.close:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+

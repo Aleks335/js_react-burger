@@ -1,0 +1,16 @@
+.infoContainer{
+    max-width: 600px;
+    width: 600px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.statusContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 36px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
